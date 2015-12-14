@@ -23,8 +23,8 @@ min-height: 140px;
 color: rgb(93,16,26);
 }
 
-#index {
-background-color: rgb(93,16,26);
+#education {
+  top margin-top: 0;
 }
 
 #movingit {
@@ -62,12 +62,13 @@ h1 {
 
 nav{
 text-align: center;
+background-color: rgb(93,16,26);
 }
 
 
 ul {
   list-style-type: none;
-  margin: -8px;
+  margin: -6px;
   padding: 17px;
   overflow: hidden;
 }
@@ -82,6 +83,7 @@ li a {
   text-align: center;
   padding: 16px 20px;
   text-decoration: none;
+}
 
 div {
 align-items: center;
@@ -98,3 +100,8 @@ color: white;
 
 a:hover {
   color: rgb(249,218,169);
+}
+
+p {
+margin-top: 0;
+}
