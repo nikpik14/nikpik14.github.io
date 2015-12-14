@@ -1,0 +1,60 @@
+@import url(https://fonts.googleapis.com/css?family=Patrick+Hand+SC);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Condensed);
+
+body {
+font-size: 16px;
+font-family: "Patrick Hand SC", cursive;
+color: rgb(93,16,26);
+background-image: url("../img/pink_rice.png");
+}
+
+a {
+  color: rgb(93,16,26);
+}
+
+a:visited {
+color: white;
+}
+
+a:hover {
+  color: rgb(249, 218, 169);
+
+}
+
+
+h1, h2, h3 {
+  font-family: "Patrick Hand SC", cursive;
+}
+
+h1 {
+font-size: 50px;
+margin-bottom: 10px;
+}
+
+header{
+  position: relative;
+  border-top: 3px solid #222;
+  border-bottom: 3px solid #222;
+  min-height: 140px;
+}
+
+nav {
+position: relative;
+border-bottom: 3px solid #222;
+min-height: 50px;
+}
+
+li {
+  display: grid;
+}
+
+
+#container {
+width: 0px;
+margin: 0 auto;
+}
+
+
+p, li {
+  font-family:"Ubuntu Condensed", sans-serif;
+}

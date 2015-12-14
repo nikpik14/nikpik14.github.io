@@ -1,9 +1,87 @@
-
-
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+@import url(https://fonts.googleapis.com/css?family=Patrick+Hand+SC);
 
 body {
-  background-image: url("../image/stardust.png");
- }
+  background-image: url("../image/pink_rice.png");
+  font-size: 16px;
+  font-family: "Indie Flower", cursive;
+  color: rgb(93,16,26);
+}
 
+header {
+border-top: 3px transparent
+border-bottom: 40px solid rgb(93,16,26);
+min-height: 140px;
+color: rgb(93,16,26);
+}
+
+#movingit {
+  margin-left: 18px;
+  position: absolute;
+  bottom: 42px;
+}
+
+#navbarstyle {
+position: absolute;
+bottom: 0px;
+width: 100%;
+}
+
+#ulstylebar {
+  padding: 5px;
+}
+
+#movingimages {
+position: relative;
+padding: 10px;
+margin: auto;
+margin-top: 170px;
+width: 60%;
+}
+
+h1 {
+  font-size: 72px;
+  position:static;
+  text-align: center;
+  margin: auto;
 
 }
+
+nav{
+text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: -8px;
+  padding: 17px;
+  overflow: hidden;
+  background-color: rgb(93,16,26);
+}
+
+li {
+float: right;
+}
+
+li a {
+  display: grid;
+  color: rgb(193,133,41);
+  text-align: center;
+  padding: 16px 20px;
+  text-decoration: none;
+}
+
+p, li {
+font-family:"Ubuntu Condensed", sans-serif;
+  }
+
+a {
+  color: rgb(93,16,26);
+}
+
+a:visited {
+color: white;
+}
+
+a:hover {
+  color: rgb(249,218,169);
