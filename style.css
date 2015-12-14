@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css?family=Handlee);
+@import url(https://fonts.googleapis.com/css?family=Bad+Script);
+
+body {
+font-size: 16px;
+font-family: "Helvetica", "Arial", sans-serif;
+color: black;
+background-image: url("../img/grunge_wall.png");
+}
+
+a {
+  color: rgb(100,192,240);
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: rgb(226,0,39);
+
+}
+
+a:active {
+  color: red;
+}
+
+h1, h2, h3 {
+  font-family: "Handlee", cursive;
+}
+
+h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+header{
+position: relative;
+border-top: 3px solid #222;
+border-bottom: 3px solid #222;
+min-height: 140px;
+}
+
+nav {
+position: relative;
+border-bottom: 3px solid #222;
+min-height: 50px;
+}
+
+
+
+li {
+display: inline-block;
+}
+
+a {
+display: block;
+width: 120px
+}
+
+address {
+position:absolute;
+top: 0;
+right: 0;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+#container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+address p{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+p, li {
+font-family: "Bad+Script", cursive;
+}
