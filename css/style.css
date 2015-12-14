@@ -1,18 +1,30 @@
-@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
 @import url(https://fonts.googleapis.com/css?family=Patrick+Hand+SC);
 
 body {
   background-image: url("../image/pink_rice.png");
   font-size: 16px;
-  font-family: "Indie Flower", cursive;
+  font-family: "Patrick Hand SC";
   color: rgb(93,16,26);
 }
+main {
+border: 5px rgb(193,133,41) solid;
+margin: 0 auto;
+background-color: transparent;
+width: 600px;
+}
+
 
 header {
 border-top: 3px transparent
 border-bottom: 40px solid rgb(93,16,26);
+padding-top: 20px;
+padding-bottom: 20px;
 min-height: 140px;
 color: rgb(93,16,26);
+}
+
+#index {
+background-color: rgb(93,16,26);
 }
 
 #movingit {
@@ -58,7 +70,6 @@ ul {
   margin: -8px;
   padding: 17px;
   overflow: hidden;
-  background-color: rgb(93,16,26);
 }
 
 li {
@@ -76,10 +87,6 @@ div {
 align-items: center;
 }
 
-
-p, li {
-font-family:"Ubuntu Condensed", sans-serif;
-  }
 
 a {
   color: rgb(93,16,26);
