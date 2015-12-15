@@ -25,9 +25,10 @@ main {
 }
 
 #main {
-  border: 5px rgb(193,133,41) solid;
+  border: 3px rgb(193,133,41) solid;
   background-color: white;
-  width: 500px;
+  width: 300px;
+  height: 600px;
 }
 
 #experience {
@@ -77,14 +78,14 @@ left: 0;
   padding: 5px;
 }
 
-p.double {border-style: double;}
-
 #movingimages {
 align-items: center;
 padding: 10px;
 margin: auto;
 margin-top: 170px;
-width: 60%;
+margin-bottom: 170px;
+margin-left: 170px;
+width: 50%;
 }
 
 #fixingit {
@@ -224,6 +225,12 @@ margin-top: -6px;
   margin-left: 5px;
 }
 
+#page {
+font-size: 35px;
+text-align: center;
+margin-top: -40px;
+}
+
 h1 {
   font-size: 72px;
   position:static;
@@ -233,6 +240,7 @@ h1 {
 
 h2 {
 font-size: 45px;
+text-align: center;
 }
 
 h3 {
