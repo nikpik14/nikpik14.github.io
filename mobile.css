@@ -16,7 +16,7 @@ main {
 
 #video1 {
 width: 320px;
-height: 215px;
+height: 215px;margin-left: 105px;
 }
 
 #video2 {
