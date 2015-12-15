@@ -1,1 +1,44 @@
 @media (max-width: 320px) {
+
+body {
+  font-size: 24px;
+}
+
+nav {
+text-align: center;
+}
+
+main {
+ width: 900px;
+}
+
+#video1 {
+width: 320px;
+height: 215px;
+}
+
+#video2 {
+  width: 320px;
+  height: 215px;
+}
+
+.image {
+display: none;
+}
+
+#video3 {
+  margin-left: 205px;
+}
+
+#index {
+margin-right: -20px;
+}
+
+
+
+
+
+
+
+
+}
